@@ -1,0 +1,23 @@
+{
+  "name": "11ty-tina",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"eleventy --serve\"",
+    "build": "tinacms build && eleventy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "dotenv": "^16.4.7",
+    "tinacms": "^2.5.0"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.6.12",
+    "@types/node": "^22.10.1"
+  }
+}
